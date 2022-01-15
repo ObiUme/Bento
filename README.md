@@ -40,4 +40,8 @@ rails db:seed
 
 Contributing
 
+<<<<<<< HEAD
 Please make sure to update tests as appropriate.
+=======
+Please make sure to update tests as appropriate.
+>>>>>>> 27d7ac53d2e3bbe1f819680ccf42afdbeaa0d6d0
