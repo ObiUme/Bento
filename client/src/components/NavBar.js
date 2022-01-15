@@ -1,5 +1,4 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
+import * as React from 'react'
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -11,7 +10,6 @@ import {Link} from 'react-router-dom'
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      {/* <AppBar position="static"> */}
         <Toolbar
             variant='regular'
             style={{marginTop: '10px'}}
@@ -32,7 +30,6 @@ export default function NavBar() {
           <Button color="inherit" component={Link} to='/addnewproduct'>ADD NEW PRODUCT</Button>
           <Button color="inherit" component={Link} to='/contact'>Contact</Button>
         </Toolbar>
-      {/* </AppBar> */}
     </Box>
   );
 }
